@@ -2,7 +2,7 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=iampkumar02.iampkumar02" />
 
 ## 🙋🏽‍♂️ About Me
-- I am an Information Technology undergraduate at the **Indian Institute of Information Technology, Gwalior (IIIT Gwalior)**, currently pursuing my Bachelor of Technology in my second year.
+- I am a final-year student at the Indian Institute of Information Technology, Gwalior (IIIT Gwalior), currently pursuing an Integrated Dual Degree (B.Tech + Masters) in Information Technology.
 - I have a deep interest in **Open Source, Application Development, Networking,** and **Competitive Programming**.
 - 🌱 I’m currently learning **Gnome Control Center and Gnome Network Displays (RTSP)**.
 - 💬 Ask me about **C/C++, Docker, Gtk+4, GNOME**.
