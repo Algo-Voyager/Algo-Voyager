@@ -97,6 +97,6 @@
 
 ## 📫 Connect with Me
 - **Email:** [iampkumar02@gmail.com](mailto:iampkumar02@gmail.com)  
-- **Portfolio:** [algo-voyager.app](https://algo-voyager.app)  
+- **Portfolio:** [algo-voyager.vercel.app](https://algo-voyager.vercel.app/)  
 - **GitHub:** [Algo-Voyager](https://github.com/Algo-Voyager)  
 - **LinkedIn:** [iampkumar](https://www.linkedin.com/in/iampkumar)
