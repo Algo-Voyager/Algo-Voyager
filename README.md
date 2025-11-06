@@ -1,3 +1,188 @@
+# 🚀 Algo-Voyager
+
+<div align="center">
+  <h3>Interactive Algorithm Learning Platform with Comprehensive Metrics Dashboard</h3>
+  <p>Track your algorithm learning journey with beautiful visualizations and detailed analytics</p>
+</div>
+
+---
+
+## ✨ Features
+
+### 📊 Comprehensive Metrics Dashboard
+- **Real-time Performance Tracking** - Monitor your problem-solving progress over time
+- **Algorithm Category Analysis** - Track progress across 10+ algorithm categories
+- **Difficulty Distribution** - Visualize your performance across Easy, Medium, and Hard problems
+- **Language Statistics** - See which programming languages you use most
+- **Performance Comparison** - Compare your stats with community averages and top performers
+
+### 🎯 Key Metrics
+- Problems Solved Counter with success rate
+- Current & Longest Streak Tracking
+- Total Time Invested Analysis
+- Global Ranking System
+- Skill Level Progression
+
+### 🏆 Achievement System
+- Unlock achievements as you progress
+- Rarity tiers: Common, Rare, Epic, Legendary
+- Track milestone accomplishments
+
+### 📈 Interactive Visualizations
+- **Area Charts** - Performance trends over time
+- **Bar Charts** - Category-wise progress and comparisons
+- **Pie Charts** - Difficulty distribution
+- **Radar Charts** - Language proficiency mapping
+- **Progress Bars** - Topic-wise completion tracking
+
+### 🎨 Modern UI/UX
+- Responsive design for all devices
+- Gradient backgrounds and smooth animations
+- Interactive hover effects
+- Clean, professional interface
+- Tailwind CSS styling
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React 18 with TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Charts & Visualizations:** Recharts
+- **Icons:** Lucide React
+- **Date Formatting:** date-fns
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Algo-Voyager/Algo-Voyager.git
+cd Algo-Voyager
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized production build will be in the `dist` folder.
+
+---
+
+## 📁 Project Structure
+
+```
+Algo-Voyager/
+├── src/
+│   ├── components/
+│   │   ├── Dashboard.tsx          # Main dashboard component
+│   │   ├── MetricCard.tsx         # Metric display cards
+│   │   ├── ProgressChart.tsx      # Performance over time
+│   │   ├── CategoryChart.tsx      # Algorithm categories
+│   │   ├── DifficultyChart.tsx    # Problem difficulty breakdown
+│   │   ├── TopicProgressList.tsx  # Topic progress tracking
+│   │   ├── RecentActivityList.tsx # Recent activities
+│   │   ├── AchievementsList.tsx   # Achievement display
+│   │   ├── LanguageStatsChart.tsx # Language statistics
+│   │   └── ComparisonChart.tsx    # Performance comparison
+│   ├── data/
+│   │   └── sampleData.ts          # Sample metrics data
+│   ├── types.ts                   # TypeScript type definitions
+│   ├── index.css                  # Global styles
+│   ├── App.tsx                    # Root component
+│   └── main.tsx                   # Entry point
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── tailwind.config.js
+```
+
+---
+
+## 📊 Metrics Tracked
+
+### User Metrics
+- Total problems and solved count
+- Success rate percentage
+- Current and longest streaks
+- Total time invested
+- Global ranking
+- Skill level
+
+### Algorithm Categories
+- Arrays & Strings
+- Dynamic Programming
+- Trees & Graphs
+- Sorting & Searching
+- Linked Lists
+- Hash Tables
+- Recursion & Backtracking
+- Greedy Algorithms
+- Bit Manipulation
+- Math & Geometry
+
+### Performance Data
+- Daily problem-solving trends
+- Time spent per session
+- Accuracy over time
+- Activity history
+
+---
+
+## 🎨 Screenshots
+
+The dashboard features:
+- Clean, modern interface with gradient backgrounds
+- Interactive charts that respond to user interaction
+- Smooth animations and transitions
+- Comprehensive metrics at a glance
+- Detailed breakdowns for deep analysis
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+---
+
+## 👨‍💻 About the Developer
+
 # Hi 👋, I'm Prashant Kumar
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=iampkumar02.iampkumar02" />
 
