@@ -150,7 +150,7 @@ hobbies:
   <a href="mailto:iampkumar02@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://algo-voyager.app" target="_blank">
+  <a href="https://algo-voyager.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://github.com/Algo-Voyager" target="_blank">
