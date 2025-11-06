@@ -1,287 +1,189 @@
-# 🚀 Algo-Voyager
-
 <div align="center">
-  <h3>Interactive Algorithm Learning Platform with Comprehensive Metrics Dashboard</h3>
-  <p>Track your algorithm learning journey with beautiful visualizations and detailed analytics</p>
+
+# 🚀 Hi, I'm Prashant Kumar
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Open+Source+Enthusiast;Competitive+Programmer;Problem+Solver" alt="Typing SVG" />
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=Algo-Voyager&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Algo-Voyager?label=Followers&style=social" alt="GitHub Followers" />
+</p>
+
+### 🎓 Recent IIIT Gwalior Graduate | Integrated Dual Degree (B.Tech + Masters) in IT
+
 </div>
 
 ---
 
-## ✨ Features
+## 💫 About Me
 
-### 📊 Comprehensive Metrics Dashboard
-- **Real-time Performance Tracking** - Monitor your problem-solving progress over time
-- **Algorithm Category Analysis** - Track progress across 10+ algorithm categories
-- **Difficulty Distribution** - Visualize your performance across Easy, Medium, and Hard problems
-- **Language Statistics** - See which programming languages you use most
-- **Performance Comparison** - Compare your stats with community averages and top performers
-
-### 🎯 Key Metrics
-- Problems Solved Counter with success rate
-- Current & Longest Streak Tracking
-- Total Time Invested Analysis
-- Global Ranking System
-- Skill Level Progression
-
-### 🏆 Achievement System
-- Unlock achievements as you progress
-- Rarity tiers: Common, Rare, Epic, Legendary
-- Track milestone accomplishments
-
-### 📈 Interactive Visualizations
-- **Area Charts** - Performance trends over time
-- **Bar Charts** - Category-wise progress and comparisons
-- **Pie Charts** - Difficulty distribution
-- **Radar Charts** - Language proficiency mapping
-- **Progress Bars** - Topic-wise completion tracking
-
-### 🎨 Modern UI/UX
-- Responsive design for all devices
-- Gradient backgrounds and smooth animations
-- Interactive hover effects
-- Clean, professional interface
-- Tailwind CSS styling
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend Framework:** React 18 with TypeScript
-- **Build Tool:** Vite
-- **Styling:** Tailwind CSS
-- **Charts & Visualizations:** Recharts
-- **Icons:** Lucide React
-- **Date Formatting:** date-fns
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Algo-Voyager/Algo-Voyager.git
-cd Algo-Voyager
+```javascript
+const prashant = {
+    location: "India 🇮🇳",
+    education: "IIIT Gwalior - B.Tech + Masters in IT",
+    interests: ["Open Source", "Application Development", "Networking", "Competitive Programming"],
+    currentlyLearning: ["Gnome Control Center", "Gnome Network Displays (RTSP)"],
+    askMeAbout: ["C/C++", "Docker", "Gtk+4", "GNOME"],
+    pronouns: "He/Him",
+    funFact: "I debug code faster than I debug my life 😄"
+};
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+<div align="center">
 
-3. Start the development server:
-```bash
-npm run dev
-```
+## 🛠️ Tech Arsenal
 
-4. Open your browser and navigate to `http://localhost:5173`
+### 💻 Languages
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-### Build for Production
+### 🎨 Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-```bash
-npm run build
-```
+### ⚙️ Backend & Frameworks
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
-The optimized production build will be in the `dist` folder.
+### 🗄️ Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
----
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka&logoColor=white)
 
-## 📁 Project Structure
+### 🔧 Tools & Others
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-```
-Algo-Voyager/
-├── src/
-│   ├── components/
-│   │   ├── Dashboard.tsx          # Main dashboard component
-│   │   ├── MetricCard.tsx         # Metric display cards
-│   │   ├── ProgressChart.tsx      # Performance over time
-│   │   ├── CategoryChart.tsx      # Algorithm categories
-│   │   ├── DifficultyChart.tsx    # Problem difficulty breakdown
-│   │   ├── TopicProgressList.tsx  # Topic progress tracking
-│   │   ├── RecentActivityList.tsx # Recent activities
-│   │   ├── AchievementsList.tsx   # Achievement display
-│   │   ├── LanguageStatsChart.tsx # Language statistics
-│   │   └── ComparisonChart.tsx    # Performance comparison
-│   ├── data/
-│   │   └── sampleData.ts          # Sample metrics data
-│   ├── types.ts                   # TypeScript type definitions
-│   ├── index.css                  # Global styles
-│   ├── App.tsx                    # Root component
-│   └── main.tsx                   # Entry point
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── tailwind.config.js
-```
+</div>
 
 ---
 
-## 📊 Metrics Tracked
+<div align="center">
 
-### User Metrics
-- Total problems and solved count
-- Success rate percentage
-- Current and longest streaks
-- Total time invested
-- Global ranking
-- Skill level
+## 📊 GitHub Analytics
 
-### Algorithm Categories
-- Arrays & Strings
-- Dynamic Programming
-- Trees & Graphs
-- Sorting & Searching
-- Linked Lists
-- Hash Tables
-- Recursion & Backtracking
-- Greedy Algorithms
-- Bit Manipulation
-- Math & Geometry
-
-### Performance Data
-- Daily problem-solving trends
-- Time spent per session
-- Accuracy over time
-- Activity history
-
----
-
-## 🎨 Screenshots
-
-The dashboard features:
-- Clean, modern interface with gradient backgrounds
-- Interactive charts that respond to user interaction
-- Smooth animations and transitions
-- Comprehensive metrics at a glance
-- Detailed breakdowns for deep analysis
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
----
-
-## 👨‍💻 About the Developer
-
-# Hi 👋, I'm Prashant Kumar
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=iampkumar02.iampkumar02" />
-
-## 🙋🏽‍♂️ About Me
-- I’m a recent IIIT Gwalior graduate with an Integrated Dual Degree (B.Tech + Masters) in Information Technology.
-- I have a deep interest in **Open Source, Application Development, Networking,** and **Competitive Programming**.
-- 🌱 I’m currently learning **Gnome Control Center and Gnome Network Displays (RTSP)**.
-- 💬 Ask me about **C/C++, Docker, Gtk+4, GNOME**.
-- 📫 How to reach me: **[iampkumar02@gmail.com](mailto:iampkumar02@gmail.com)**
-
----
-
-## 💻 Technical Skills
-
-<p>
-  <!-- C++ -->
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  
-  <!-- Python -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  
-  <!-- JavaScript -->
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  
-  <!-- TypeScript -->
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  
-  <!-- Go -->
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  
-  <!-- React -->
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  
-  <!-- NodeJS -->
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  
-  <!-- Django -->
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  
-  <!-- Git -->
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  
-  <!-- Docker -->
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  
-  <!-- AWS -->
-  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  
-  <!-- Kubernetes -->
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  
-  <!-- Kafka -->
-  <img src="https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
-  
-  <!-- Redis -->
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  
-  <!-- Linux -->
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  
-  <!-- MySQL -->
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  
-  <!-- MongoDB -->
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  
-  <!-- PostgreSQL -->
-  <img src="https://img.shields.io/badge/Postgres-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  
-  <!-- Firebase -->
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-</p>
-
-
----
-
-## 📊 GitHub Statistics
 <p align="center">
-  <!-- GitHub Stats Card -->
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Algo-Voyager&show_icons=true&count_private=true&theme=onedark"
-    alt="GitHub Stats"
-    style="max-width: 100%;"
-  />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Algo-Voyager&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0D1117"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Algo-Voyager&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117&hide=html,css"/>
 </p>
 
 <p align="center">
-  <!-- Top Languages Card -->
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Algo-Voyager&theme=onedark&exclude_repo=Competitive-Programming&hide=html,css"
-    alt="Top Languages"
-    style="max-width: 100%;"
-  />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Algo-Voyager&theme=tokyonight&hide_border=true&border_radius=10&background=0D1117" alt="GitHub Streak Stats"/>
 </p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Algo-Voyager&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF" alt="Contribution Graph"/>
+</p>
+
+### 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Algo-Voyager&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies"/>
+</p>
+
+</div>
 
 ---
 
-## 📫 Connect with Me
-- **Email:** [iampkumar02@gmail.com](mailto:iampkumar02@gmail.com)  
-- **Portfolio:** [algo-voyager.app](https://algo-voyager.app)  
-- **GitHub:** [Algo-Voyager](https://github.com/Algo-Voyager)  
-- **LinkedIn:** [iampkumar](https://www.linkedin.com/in/iampkumar)
+<div align="center">
+
+## 🌟 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🔥 Project Highlight 1</h3>
+      <p align="center">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/400x200/0D1117/5BCDEC?text=Your+Awesome+Project" alt="Project 1"/>
+        </a>
+        <br><br>
+        <b>Tech Stack:</b> React, Node.js, MongoDB<br>
+        <a href="#" target="_blank">
+          <img src="https://img.shields.io/badge/View%20Demo-5BCDEC?style=for-the-badge" alt="View Demo"/>
+        </a>
+        <a href="#" target="_blank">
+          <img src="https://img.shields.io/badge/Source%20Code-0D1117?style=for-the-badge&logo=github" alt="Source Code"/>
+        </a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🚀 Project Highlight 2</h3>
+      <p align="center">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/400x200/0D1117/5BCDEC?text=Your+Amazing+Project" alt="Project 2"/>
+        </a>
+        <br><br>
+        <b>Tech Stack:</b> Python, Django, PostgreSQL<br>
+        <a href="#" target="_blank">
+          <img src="https://img.shields.io/badge/View%20Demo-5BCDEC?style=for-the-badge" alt="View Demo"/>
+        </a>
+        <a href="#" target="_blank">
+          <img src="https://img.shields.io/badge/Source%20Code-0D1117?style=for-the-badge&logo=github" alt="Source Code"/>
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🤝 Let's Connect!
+
+<p align="center">
+  <a href="mailto:iampkumar02@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/iampkumar" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Algo-Voyager" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://algo-voyager.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+### 🐍 Contribution Snake
+![Snake animation](https://raw.githubusercontent.com/Algo-Voyager/Algo-Voyager/output/github-contribution-grid-snake-dark.svg)
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&fontSize=0" width="100%"/>
+</p>
+
+**⭐️ From [Algo-Voyager](https://github.com/Algo-Voyager) with 💙**
+
+*"Code is like humor. When you have to explain it, it's bad." – Cory House*
+
+</div>
