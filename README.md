@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/github/followers/Algo-Voyager?style=social" alt="GitHub Followers"/>
 </p>
 
+
 <br/>
 
 ## 🙋🏽‍♂️ About Me
@@ -54,9 +55,11 @@ hobbies:
   <img src="https://github-profile-trophy.vercel.app/?username=Algo-Voyager&theme=radical&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
 </p>
 
----
+<p align="center">
+  <img src="./assets/dragon-divider.svg" alt="" width="220" height="80"/>
+</p>
 
-## 💻 Tech Stack & Tools
+## 💻 Tech Stack & Tools <img src="./assets/dragon-peek.svg" alt="" width="120" height="75" align="right"/>
 
 <details open>
 <summary><b>Programming Languages</b></summary>
@@ -125,7 +128,9 @@ hobbies:
 </p>
 </details>
 
----
+<p align="center">
+  <img src="./assets/dragon-divider.svg" alt="" width="220" height="80"/>
+</p>
 
 ## 📊 GitHub Statistics
 
@@ -142,7 +147,9 @@ hobbies:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Algo-Voyager&theme=react-dark&hide_border=true&area=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=F85D7F" width="100%"/>
 </div>
 
----
+<p align="center">
+  <img src="./assets/dragon-divider.svg" alt="" width="220" height="80"/>
+</p>
 
 ## 🌐 Connect With Me
 
@@ -170,3 +177,7 @@ hobbies:
 <div align="center">
   <i>⭐️ From <a href="https://github.com/Algo-Voyager">Algo-Voyager</a> - Feel free to reach out!</i>
 </div>
+
+<p align="center">
+  <img src="./assets/dragon.svg" alt="Flying dragon" width="100%"/>
+</p>

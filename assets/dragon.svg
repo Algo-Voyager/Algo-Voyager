@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200" preserveAspectRatio="xMidYMid meet">
+  <!-- Dragon silhouette: Lorc, game-icons.net (CC BY 3.0).
+       https://game-icons.net/1x1/lorc/dragon-breath.html -->
+
+  <defs>
+    <!-- Body gradient: emerald into forest, with a warm rim highlight at top. -->
+    <linearGradient id="body-grad" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%"   stop-color="#b9ffc3"/>
+      <stop offset="25%"  stop-color="#4ea968"/>
+      <stop offset="70%"  stop-color="#1f6132"/>
+      <stop offset="100%" stop-color="#0b2717"/>
+    </linearGradient>
+
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#3dffa0" stop-opacity="0.35"/>
+      <stop offset="70%"  stop-color="#3dffa0" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="ember" cx="25%" cy="50%" r="75%">
+      <stop offset="0%"   stop-color="#fff4c2" stop-opacity="1"/>
+      <stop offset="45%"  stop-color="#ffa640" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff2a00" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.8"/>
+    </filter>
+
+    <path id="dragon-path" d="M15.327 12.997v61.32c76.696 54.194 157.847 147.575 64.827 125.566 57.116 55.067 104.12 26.786 174.037 135.492 30.42 47.297 7.473 80.54-29.785 90.524-47.88 12.828-114.353-30.45-57.82-54.314-59.296-1.45-66.954 47.977-38.727 80.237-27.93-9.635-46.01-34.308-43.034-60.605-36.043 48.278-5.362 93.284 54.313 102.43h357.42v-344.57c-15.752-70.31-94.876-87.764-103.372-3.504 14.61-36.423 50.96-20.625 84.1 18.688-11.28-7.498-24.24-11.49-36.21-11.097-19.73.65-37.36 12.086-41.466 36.794 55.902-46.113 84.628 34.717 61.74 76.876-24.744 45.582-94.89-20.467-95.03-75.71-27.974 31.235-7.813 108.298 52.37 122.548C304.635 301.29 342.743 182.92 295.655 157.84 324.383 285.473 121.728 62.26 66.137 13h-50.81z"/>
+  </defs>
+
+  <!-- Drifting sparkles in the banner background. -->
+  <g fill="#3dffa0" opacity="0.7">
+    <circle cx="80" cy="40" r="1.4">
+      <animate attributeName="opacity" values="0;1;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="52" r="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="25" r="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="3.6s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="160" r="1.3">
+      <animate attributeName="opacity" values="0;1;0" dur="3.0s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="230" cy="145" r="1.2">
+      <animate attributeName="opacity" values="0;1;0" dur="3.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Dragon flies across on an elegant arc (smooth x + y bob). -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      keyTimes="0; 0.25; 0.5; 0.75; 1"
+      values="-220,40; 220,20; 500,60; 780,15; 1000,40"
+      dur="18s" repeatCount="indefinite"/>
+
+    <!-- Soft emerald aura behind the dragon -->
+    <ellipse cx="90" cy="90" rx="140" ry="60" fill="url(#aura)" filter="url(#glow)"/>
+
+    <!-- Dragon silhouette — only gradient fill, nothing else on top. -->
+    <use href="#dragon-path" transform="scale(0.36)" fill="url(#body-grad)" filter="url(#soft)"/>
+
+    <!-- Glint on the eye -->
+    <circle cx="48" cy="30" r="2.2" fill="#fff7a8" filter="url(#soft)">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Fire breath — subtle embers, no hard edges. -->
+    <g>
+      <ellipse cx="10" cy="80" rx="14" ry="6" fill="url(#ember)" filter="url(#soft)">
+        <animate attributeName="rx" values="0; 20; 36" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0; 1; 0" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="8; -26; -60" dur="1.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="10" cy="80" rx="8" ry="4" fill="url(#ember)" filter="url(#soft)">
+        <animate attributeName="rx" values="0; 12; 22" dur="1.1s" begin="0.35s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0; 1; 0" dur="1.1s" begin="0.35s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="8; -18; -40" dur="1.1s" begin="0.35s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+  </g>
+</svg>
