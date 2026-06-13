@@ -1,0 +1,27 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .glow { animation: glow 6s ease-in-out infinite alternate; }
+    @keyframes glow { to { opacity: 0.9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="50%" cy="100%" r="70%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="150" fill="#030303"/>
+  <rect width="1200" height="150" fill="url(#warm)" class="glow" opacity="0.5"/>
+  <rect x="300" y="30" width="600" height="1" fill="url(#horizon)"/>
+
+  <text x="600" y="82" text-anchor="middle" class="sans" font-size="17" font-weight="300" fill="#ffffff" fill-opacity="0.6">Thanks for scrolling this far.</text>
+  <text x="600" y="118" text-anchor="middle" class="mono" font-size="11" letter-spacing="4" fill="#ffffff" fill-opacity="0.3">ALGO-VOYAGER · DESIGNED WITH INTENTION</text>
+</svg>

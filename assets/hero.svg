@@ -1,0 +1,128 @@
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+
+    .word { transform: translateY(115px); animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    .w1 { animation-delay: 0.20s; }
+    .w2 { animation-delay: 0.36s; }
+    @keyframes rise { to { transform: translateY(0); } }
+
+    .fade { opacity: 0; animation: fadeIn 0.9s ease-out forwards; }
+    .f1 { animation-delay: 0.10s; }
+    .f2 { animation-delay: 0.95s; }
+    .f3 { animation-delay: 1.20s; }
+    @keyframes fadeIn { to { opacity: 1; } }
+
+    .rule { transform: scaleX(0); transform-origin: 600px 0; animation: grow 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.05s forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+
+    .drift-a { animation: driftA 70s ease-in-out infinite alternate; }
+    .drift-b { animation: driftB 45s ease-in-out infinite alternate; }
+    @keyframes driftA { to { transform: translate(28px, -14px); } }
+    @keyframes driftB { to { transform: translate(-36px, 18px); } }
+
+    .pulse { animation: pulse 5s ease-in-out infinite; }
+    .p2 { animation-delay: 1.6s; }
+    .p3 { animation-delay: 3.2s; }
+    @keyframes pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+
+    .flow { stroke-dasharray: 6 260; animation: flow 7s linear infinite; }
+    .fl2 { animation-delay: 2.3s; }
+    .fl3 { animation-delay: 4.6s; }
+    @keyframes flow { to { stroke-dashoffset: -266; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transform: none !important; opacity: 1 !important; }
+    }
+  </style>
+
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.07"/>
+      <stop offset="55%" stop-color="#a78bfa" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#030303" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <clipPath id="clip-w1"><rect x="40" y="148" width="546" height="110"/></clipPath>
+    <clipPath id="clip-w2"><rect x="612" y="148" width="548" height="110"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="460" fill="#030303"/>
+  <rect width="1200" height="460" fill="url(#vignette)"/>
+
+  <!-- depth layer: far particles, slow drift -->
+  <g class="drift-a" fill="#ffffff">
+    <circle cx="90" cy="70" r="1" opacity="0.14"/>
+    <circle cx="320" cy="40" r="1.4" opacity="0.10"/>
+    <circle cx="540" cy="90" r="1" opacity="0.16"/>
+    <circle cx="760" cy="50" r="1.2" opacity="0.12"/>
+    <circle cx="1010" cy="80" r="1" opacity="0.14"/>
+    <circle cx="180" cy="400" r="1.3" opacity="0.10"/>
+    <circle cx="480" cy="430" r="1" opacity="0.14"/>
+    <circle cx="880" cy="410" r="1.2" opacity="0.12"/>
+    <circle cx="1130" cy="370" r="1" opacity="0.14"/>
+  </g>
+
+  <!-- depth layer: near particles, faster drift -->
+  <g class="drift-b" fill="#ffffff">
+    <circle cx="220" cy="150" r="1.6" opacity="0.22"/>
+    <circle cx="640" cy="30" r="1.5" opacity="0.18"/>
+    <circle cx="940" cy="160" r="1.6" opacity="0.20"/>
+    <circle cx="60" cy="260" r="1.5" opacity="0.18"/>
+    <circle cx="1150" cy="230" r="1.6" opacity="0.22"/>
+    <circle cx="380" cy="390" r="1.5" opacity="0.18"/>
+    <circle cx="720" cy="420" r="1.6" opacity="0.20"/>
+  </g>
+
+  <!-- network topology: left cluster -->
+  <g stroke="#ffffff" stroke-opacity="0.07" stroke-width="1">
+    <line x1="140" y1="120" x2="255" y2="72"/>
+    <line x1="140" y1="120" x2="92" y2="295"/>
+    <line x1="92" y1="295" x2="218" y2="382"/>
+    <line x1="140" y1="120" x2="218" y2="382"/>
+  </g>
+  <line x1="140" y1="120" x2="255" y2="72" class="flow" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="1.4"/>
+  <line x1="92" y1="295" x2="218" y2="382" class="flow fl2" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.4"/>
+  <g fill="#22d3ee">
+    <circle cx="140" cy="120" r="3" class="pulse"/>
+    <circle cx="92" cy="295" r="2.5" class="pulse p2" fill="#a78bfa"/>
+    <circle cx="255" cy="72" r="2.5" class="pulse p3"/>
+    <circle cx="218" cy="382" r="3" class="pulse p2" fill="#a78bfa"/>
+  </g>
+
+  <!-- network topology: right cluster -->
+  <g stroke="#ffffff" stroke-opacity="0.07" stroke-width="1">
+    <line x1="1045" y1="95" x2="1125" y2="258"/>
+    <line x1="1125" y1="258" x2="962" y2="332"/>
+    <line x1="962" y1="332" x2="1098" y2="392"/>
+    <line x1="1045" y1="95" x2="962" y2="332"/>
+  </g>
+  <line x1="1045" y1="95" x2="1125" y2="258" class="flow fl3" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="1.4"/>
+  <line x1="962" y1="332" x2="1098" y2="392" class="flow" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.4"/>
+  <g fill="#22d3ee">
+    <circle cx="1045" cy="95" r="3" class="pulse p3"/>
+    <circle cx="1125" cy="258" r="2.5" class="pulse"/>
+    <circle cx="962" cy="332" r="3" class="pulse p2" fill="#a78bfa"/>
+    <circle cx="1098" cy="392" r="2.5" class="pulse p3" fill="#a78bfa"/>
+  </g>
+
+  <!-- foreground: type -->
+  <text x="600" y="112" text-anchor="middle" class="mono fade f1" font-size="13" letter-spacing="6" fill="#ffffff" fill-opacity="0.45">FULL-STACK ENGINEER · OPEN-SOURCE CONTRIBUTOR</text>
+
+  <g clip-path="url(#clip-w1)">
+    <text x="584" y="238" text-anchor="end" class="sans word w1" font-size="92" font-weight="800" letter-spacing="-2" fill="#ffffff" fill-opacity="0.92">PRASHANT</text>
+  </g>
+  <g clip-path="url(#clip-w2)">
+    <text x="616" y="238" text-anchor="start" class="sans word w2" font-size="92" font-weight="800" letter-spacing="-2" fill="url(#accent)">KUMAR</text>
+  </g>
+
+  <rect x="540" y="272" width="120" height="2" rx="1" fill="url(#accent)" class="rule"/>
+
+  <text x="600" y="328" text-anchor="middle" class="sans fade f2" font-size="21" font-weight="300" fill="#ffffff" fill-opacity="0.55">Building systems that scale, from desktop to cloud.</text>
+
+  <text x="600" y="378" text-anchor="middle" class="mono fade f3" font-size="12" letter-spacing="3" fill="#ffffff" fill-opacity="0.35">IIIT GWALIOR · GNOME CONTRIBUTOR · COMPETITIVE PROGRAMMER</text>
+</svg>
